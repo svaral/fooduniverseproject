@@ -5,7 +5,24 @@ body{
   color: rgb(255, 102, 0);
   font-family: Bodoni MT;
   }
+  h1, h2, h3{
+    text-align: center;
+  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 div{
   color: rgb(255, 133, 51);
   font-family: Bodoni MT;
+}
+ul{
+li#lower {
+  margin-top: 7%
+}
+li#lowest {
+  margin-top: 14%
+}
 }
