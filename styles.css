@@ -1,35 +1,84 @@
 body{
-  background-color: rgb(77,0,0);
+  background-color: rgb(0, 0, 0);
 }
 body{
-  color: rgb(255, 102, 0);
-  font-family: Bodoni MT;
+  color: rgb(0, 0, 0);
+  font-family: Comic Sans MS;
   }
-  h1, h2, h3{
+  h1,h2{
     text-align: center;
+    text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
   }
+
+ h3{
+    text-align: center;
+    text-decoration:underline;
+      text-decoration-style: double;
+      text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+  }
+
+ul{
+
+  text-align: center;
+  text-decoration: underline ;
+  text-decoration-style: double;
+  text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
+}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 400px;
-  height: 300px;
+  height: 400px;
   depth:300px;
 
 }
 
+
+p{
+  text-align: center;
+  text-shadow:1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
 }
+
+
+
+
+div.contrast{
+  background-color: rgb(0,0,0);
+  color: rgb(155,055,255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
+
+.bg {
+  /* The image used */
+  background-image: url("try2.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  opacity=0.4;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: exclusion;
 }
-div{
-  color: rgb(255, 133, 51);
-  font-family: Bodoni MT;
-}
+
 ul{
- li#lower{
-  margin-top: 7%
+  list-style: none;
+  padding: 1;
+  margin-bottom: 10%;
+  font-size: 2em;
+  display: flex;
+  justify-content: flex-start;
 }
-li#lowest {
-  margin-top: 14%
-}
-}
+  li#lower{
+    margin-top: 5%;
+  }
+  li#lowest{
+    margin-top:10%;
+  }
